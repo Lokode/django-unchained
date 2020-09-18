@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <title>Django practice</title>
+    </head>
+    <body>
+        {% include 'navbar.html' %}
+
+        {% block content %}
+        replace me
+        {% endblock %}
+
+
+        {% block content_two %}
+        <p>block 2 content from base</p> 
+        {% endblock %}
+    </body>
+</html>
